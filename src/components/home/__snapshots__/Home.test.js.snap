@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders Home component 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar"
+    style="top: 0px;"
+  >
+    <a
+      href="/#home"
+    >
+      <img
+        alt="small logo icon"
+        class="logo-icon"
+        src="logo.png"
+      />
+    </a>
+    <a
+      class="link"
+      href="/#home"
+    >
+      Home
+    </a>
+    <a
+      class="link"
+      href="/#solutions"
+    >
+      Solutions
+    </a>
+    <a
+      class="link"
+      href="/#services"
+    >
+      Services
+    </a>
+    <a
+      class="link"
+      href="/#products"
+    >
+      Products
+    </a>
+    <a
+      class="link"
+      href="/#aboutus"
+    >
+      About Us
+    </a>
+    <a
+      class="link"
+      href="/#contact"
+    >
+      Contact
+    </a>
+  </nav>
+  <div
+    class="logo-title"
+    id="home"
+  >
+    <img
+      alt="Heat Transfer Systems logo"
+      class="home-logo"
+      src="logo.png"
+    />
+    <h1
+      class="home-company-title"
+      data-testid="title"
+    >
+      Heat Transfer Systems
+    </h1>
+    <h2
+      class="home-p"
+    >
+      Burners, Combustion Systems, Components & Service
+    </h2>
+  </div>
+</DocumentFragment>
+`;

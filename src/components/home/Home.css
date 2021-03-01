@@ -1,0 +1,44 @@
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.home-logo {
+  flex-direction: row;
+  width: 125px;
+  margin: auto;
+  margin-top: 7%;
+  border-radius: 2px;
+}
+
+.home-company-title {
+  width: 70%;
+  margin: auto;
+  padding: 35px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.home-p {
+  width: 50%;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 2px;
+  letter-spacing: 0.3rem;
+  line-height: 2rem;
+  font-weight: bolder;
+  color: #003366;
+}
+
+@media only screen
+and (min-device-width : 20em) 
+and (max-device-width : 50em)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+  .home-logo {
+    margin-top: 35%;
+   }
+}

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component renders Nav component 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar"
+    style="top: 0px;"
+  >
+    <a
+      href="/#home"
+    >
+      <img
+        alt="small logo icon"
+        class="logo-icon"
+        src="logo.png"
+      />
+    </a>
+    <a
+      class="link"
+      href="/#home"
+    >
+      Home
+    </a>
+    <a
+      class="link"
+      href="/#solutions"
+    >
+      Solutions
+    </a>
+    <a
+      class="link"
+      href="/#services"
+    >
+      Services
+    </a>
+    <a
+      class="link"
+      href="/#products"
+    >
+      Products
+    </a>
+    <a
+      class="link"
+      href="/#aboutus"
+    >
+      About Us
+    </a>
+    <a
+      class="link"
+      href="/#contact"
+    >
+      Contact
+    </a>
+  </nav>
+</DocumentFragment>
+`;
