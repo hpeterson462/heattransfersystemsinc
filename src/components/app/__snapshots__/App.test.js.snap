@@ -2,6 +2,234 @@
 
 exports[`App renders App component 1`] = `
 <DocumentFragment>
-  <div />
+  <div>
+    <nav
+      class="navbar"
+      style="top: 0px;"
+    >
+      <a
+        href="/#home"
+      >
+        <img
+          alt="small logo icon"
+          class="logo-icon"
+          src="logo.png"
+        />
+      </a>
+      <a
+        class="link"
+        href="/#home"
+      >
+        Home
+      </a>
+      <a
+        class="link"
+        href="/#solutions"
+      >
+        Solutions
+      </a>
+      <a
+        class="link"
+        href="/#services"
+      >
+        Services
+      </a>
+      <a
+        class="link"
+        href="/#products"
+      >
+        Products
+      </a>
+      <a
+        class="link"
+        href="/#aboutus"
+      >
+        About Us
+      </a>
+      <a
+        class="link"
+        href="/#contact"
+      >
+        Contact
+      </a>
+    </nav>
+    <div
+      class="logo-title"
+      id="home"
+    >
+      <img
+        alt="Heat Transfer Systems logo"
+        class="home-logo"
+        src="logo.png"
+      />
+      <h1
+        class="home-company-title"
+        data-testid="title"
+      >
+        Heat Transfer Systems
+      </h1>
+      <h2
+        class="home-p"
+      >
+        Burners, Combustion Systems, Components & Service
+      </h2>
+    </div>
+    <section>
+      <h1
+        id="solutions"
+      >
+        Solutions
+      </h1>
+      <h2>
+        We build everything with the highest quality components and detail to deliver safe and reliable equipment that you can count on for years to come.
+      </h2>
+    </section>
+    <div
+      class="sol-card-container is-visible"
+    >
+      <div
+        class="sol-wrapper"
+      >
+        <div>
+          <div
+            class="sol-name"
+          >
+            Burner Equipment
+          </div>
+          <div
+            class="sol-card"
+          >
+            <img
+              alt="industrial heating system"
+              class="sol-img"
+              src="burnerEquipment.jpg"
+            />
+            <div
+              class="sol-description"
+            >
+              <p
+                class="sol-p"
+              >
+                <b>
+                  Gas & oil burners
+                </b>
+                , 
+                <b>
+                  recuperators
+                </b>
+                , and 
+                <b>
+                  heat exchangers
+                </b>
+                 for standard to low emissions applications in a variety of industries.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="sol-name"
+          >
+            Gas Trains
+          </div>
+          <div
+            class="sol-card"
+          >
+            <img
+              alt="gas train"
+              class="sol-img"
+              src="gasTrain.jpg"
+            />
+            <div
+              class="sol-description"
+            >
+              <p
+                class="sol-p"
+              >
+                <b>
+                  Custom gas trains
+                </b>
+                 built to meet 
+                <b>
+                  NFPA
+                </b>
+                 requirements for 
+                <b>
+                  natural & propane
+                </b>
+                 gas tailored to the unique needs of our customers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="sol-name"
+          >
+            Control Panels
+          </div>
+          <div
+            class="sol-card"
+          >
+            <img
+              alt="industrial heating system panel"
+              class="sol-img"
+              src="controlPanel.jpg"
+            />
+            <div
+              class="sol-description"
+            >
+              <p
+                class="sol-p"
+              >
+                From 
+                <b>
+                  single-burner
+                </b>
+                 to 
+                <b>
+                  complex PLC
+                </b>
+                 based controls, we provide custom control panels for each system.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="sol-name"
+          >
+            Turn-Key Systems
+          </div>
+          <div
+            class="sol-card"
+          >
+            <img
+              alt="heat exchanger"
+              class="sol-img"
+              src="turnKeySystems.jpg"
+            />
+            <div
+              class="sol-description"
+            >
+              <p
+                class="sol-p"
+              >
+                From tear down of old equipment to the 
+                <b>
+                  design & installation
+                </b>
+                 of new systems, we provide a 
+                <b>
+                  complete package
+                </b>
+                 in start-up training.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </DocumentFragment>
 `;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../nav/Nav';
 // import Translate from '../translate/Translate';
-// import Solutions from '../solutions/Solutions';
+import Solutions from '../solutions/Solutions';
 // import Services from '../servicesPage/Services';
 // import Products from '../products/Products';
 // import AboutUs from '../aboutUs/AboutUs';
@@ -32,27 +32,27 @@ export default function Home() {
 
       {/* <Translate />
 
-      <br />
+      <br /> */}
 
       <Solutions />
 
-      <br />
+      {/* <br />
 
-      <Services />
+      <Services /> */}
 
-      <br />
+      {/* <br />
 
-      <Products />
+      <Products /> */}
 
-      <br />
+      {/* <br />
 
-      <AboutUs />
+      <AboutUs /> */}
 
-      <br />
+      {/* <br />
 
-      <Contact />
+      <Contact /> */}
 
-      <br />
+      {/* <br />
 
       <Footer /> */}
 
