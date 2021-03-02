@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services component renders Services component 1`] = `
+<DocumentFragment>
+  <section
+    class="serv-main"
+    id="services"
+  >
+    <h1>
+      Services
+    </h1>
+    <img
+      alt="industrial heating cycle"
+      class="serviceCycle"
+      src="serviceCycle.png"
+    />
+    <h2>
+      Keeping equipment running well is just as important as installing it correctly. Our service team is ready to assist you with the ongoing maintenance of your existing equipment. Whether a piece of equipment is brand new, or just new to you, we will get it running in no time.
+    </h2>
+  </section>
+  <div
+    class="serv-card-container is-visible"
+  >
+    <div
+      class="card-wrapper"
+    >
+      <div
+        class="serv-card"
+      >
+        <div
+          class="serv-name"
+        >
+          Start Up
+        </div>
+        <img
+          alt="gas train"
+          class="serv-img"
+          src="startUp.jpg"
+        />
+        <p
+          class="serv-p"
+        >
+          Our technicians are trained to perform the 
+          <b>
+            initial start up
+          </b>
+           of your new combustion equipment 
+          <b>
+            regardless of manufacturer
+          </b>
+          . You can be assured that the job will be done right and done efficiently.
+        </p>
+      </div>
+      <div
+        class="serv-card"
+      >
+        <div
+          class="serv-name"
+        >
+          Installation
+        </div>
+        <img
+          alt="installation of combustion equipment"
+          class="serv-img"
+          src="installation.jpg"
+        />
+        <p
+          class="serv-p"
+        >
+          Whether you have a 
+          <b>
+            new piece of equipment
+          </b>
+           coming to your facility, or are 
+          <b>
+            updating an existing combustion system
+          </b>
+          ,  you can count on our team to complete the installation to the 
+          <b>
+            highest standards
+          </b>
+          .
+        </p>
+      </div>
+      <div
+        class="serv-card"
+      >
+        <div
+          class="serv-name"
+        >
+          Preventative Maintenance
+        </div>
+        <img
+          alt="gas train"
+          class="serv-img"
+          src="prevMaintenance.jpg"
+        />
+        <p
+          class="serv-p"
+        >
+          Ongoing, preventative maintenance can 
+          <b>
+            reduce unplanned down time
+          </b>
+          , 
+          <b>
+            minimize fuel costs
+          </b>
+          , 
+          <b>
+            increase product quality
+          </b>
+          , and ensure your combustion 
+          <b>
+            equipment is running safely
+          </b>
+          . However, if the unexpected does happen, our local team of service experts are ready to get you back into production quickly.
+        </p>
+      </div>
+      <div
+        class="serv-card"
+      >
+        <div
+          class="serv-name"
+        >
+          Service
+        </div>
+        <img
+          alt="industrial heating system"
+          class="serv-img"
+          src="jobSite.jpg"
+        />
+        <p
+          class="serv-p"
+        >
+          We offer a wide range of services that include:
+          <br />
+          <b>
+            burner tuning
+          </b>
+          ,
+          <br />
+           regulatory 
+          <b>
+            safety audits
+          </b>
+          ,
+          <br />
+           
+          <b>
+            troubleshooting & repairs
+          </b>
+          , and
+          <br />
+          proactive & preventative 
+          <b>
+            maintenance
+          </b>
+          .
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
