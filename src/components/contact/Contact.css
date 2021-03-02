@@ -1,0 +1,39 @@
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.contact-logo {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 10px;
+  width: 80px;
+}
+
+.contact-info {
+  text-align: center;
+  width: 300px;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.contact-info-title {
+  font-weight: bold;
+  color: #CC0000;
+}
+
+@media only screen
+and (min-device-width : 20em) 
+and (max-device-width : 50em)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+  .contact-logo {
+    padding: 10px 0 10px 0;
+  }
+}
