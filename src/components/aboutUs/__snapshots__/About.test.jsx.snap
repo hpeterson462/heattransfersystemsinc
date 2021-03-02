@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs component renders AboutUs component 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      id="aboutus"
+    >
+      About Us
+    </h1>
+    <h2>
+      Our team has been involved in the sales, service, and engineering  of combustion systems and equipment for over 50 years that includes three generations. We have an extensive background in designing systems for many different industries.
+    </h2>
+    <div
+      class="profile-container is-visible"
+    >
+      <div
+        class="profile-card"
+      >
+        <img
+          alt="Heat Transfer Systems employee Steve"
+          class="profile-img"
+          src="steve.jpg"
+        />
+        <div>
+          <p>
+            Steve Wirth
+          </p>
+          <p>
+            President
+          </p>
+          <a
+            class="contact-email"
+            href="mailto:steve@heattransfersystems.com"
+          >
+            steve@heattransfersystems.com
+          </a>
+        </div>
+      </div>
+      <div
+        class="profile-card"
+      >
+        <img
+          alt="Heat Transfer Systems employee Paul"
+          class="profile-img"
+          src="paul.jpg"
+        />
+        <div>
+          <p>
+            Paul Deliramich
+          </p>
+          <p>
+            Inside Sales & Support Manager
+          </p>
+          <a
+            class="contact-email"
+            href="mailto:paul@heattransfersystems.com"
+          >
+            paul@heattransfersystems.com
+          </a>
+        </div>
+      </div>
+      <div
+        class="profile-card"
+      >
+        <img
+          alt="Heat Transfer Systems employee Daniel"
+          class="profile-img"
+          src="daniel.jpg"
+        />
+        <div>
+          <p>
+            Daniel Candaux
+          </p>
+          <p>
+            Project & Services Manager
+          </p>
+          <a
+            class="contact-email"
+            href="mailto:daniel@heattransfersystems.com"
+          >
+            daniel@heattransfersystems.com
+          </a>
+        </div>
+      </div>
+      <div
+        class="profile-card"
+      >
+        <img
+          alt="Heat Transfer Systems employee Bailey"
+          class="profile-img"
+          src="bailey.jpg"
+        />
+        <div>
+          <p>
+            Bailey Wirth
+          </p>
+          <p>
+            Production & Warehouse Manager
+          </p>
+          <a
+            class="contact-email"
+            href="mailto:bailey@heattransfersystems.com"
+          >
+            bailey@heattransfersystems.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
