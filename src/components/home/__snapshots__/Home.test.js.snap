@@ -73,6 +73,14 @@ exports[`Home component renders Home component 1`] = `
       Burners, Combustion Systems, Components & Service
     </h2>
   </div>
+  <div
+    class="translate-container"
+  >
+    <div
+      id="google_translate_element"
+    />
+  </div>
+  <br />
   <section>
     <h1
       id="solutions"

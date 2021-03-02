@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Translate component renders Translate component 1`] = `
+<DocumentFragment>
+  <div
+    class="translate-container"
+  >
+    <div
+      id="google_translate_element"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../nav/Nav';
-// import Translate from '../translate/Translate';
+import Translate from '../translate/Translate';
 import Solutions from '../solutions/Solutions';
 import Services from '../servicesPage/Services';
 import Products from '../products/Products';
@@ -30,9 +30,9 @@ export default function Home() {
         </h2>
       </div>
 
-      {/* <Translate />
+      <Translate />
 
-      <br /> */}
+      <br />
 
       <Solutions />
 
