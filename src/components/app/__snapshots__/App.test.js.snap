@@ -390,6 +390,756 @@ exports[`App renders App component 1`] = `
         </div>
       </div>
     </div>
+    <br />
+    <section>
+      <h1
+        id="products"
+      >
+        Products
+      </h1>
+      <h2>
+        We offer a variety of quality products from these companies.
+      </h2>
+      <div
+        class="card-container"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Honeywell "
+                class="product-logo"
+                src="honeywell.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Trusted technology to manage your burners.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://thermalsolutions.honeywell.com/us/en/home"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Honeywell Maxon "
+                class="product-logo"
+                src="maxonHoneywell.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Trusted technology to manage your burners.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://thermalsolutions.honeywell.com/us/en/home"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Honeywell Eclipse "
+                class="product-logo"
+                src="eclipseHoneywell.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Trusted technology to manage your burners.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://thermalsolutions.honeywell.com/us/en/home"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Honeywell Krom Schroder "
+                class="product-logo"
+                src="kromSchroderHoneywell.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                We control your furnaces & your success.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://www.kromschroeder.de/en/"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Honeywell Hauck "
+                class="product-logo"
+                src="hauckHoneywell.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Asphalt & aggregate drying.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://thermalsolutions.honeywell.com/us/en/industries/hauck"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Karl Dungs Inc. "
+                class="product-logo"
+                src="dungs.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Safe & clean gas combustion.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://www.dungs.com/en"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Siemens "
+                class="product-logo"
+                src="siemens.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                SSC Inc.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://scccombustion.com/"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Fireye "
+                class="product-logo"
+                src="fireye.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Flame safeguard controls & burner systems.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://www.fireye.com/"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Pietro Fiorentini "
+                class="product-logo"
+                src="pietroFiorentini.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Solutions for oil & gas streams.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://www.fiorentini.com/us/en"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Flynn "
+                class="product-logo"
+                src="flynn.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Combustion components for the bakery industry.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="http://flynnburner.com/"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Future Design Controls "
+                class="product-logo"
+                src="futureDesignControls.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Recording & control products.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="http://www.futuredesigncontrols.com/"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Pyromation "
+                class="product-logo"
+                src="pyromation.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Temperature sensors & assemblies.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://www.pyromation.com/"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Honeywell Exothermics "
+                class="product-logo"
+                src="exothermicsHoneywell.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Trusted technology to manage your burners.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://thermalsolutions.honeywell.com/us/en/home"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Protection Controls Inc. "
+                class="product-logo"
+                src="protectionControlsInc.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Electrical flame safety equipment.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://www.protectioncontrolsinc.com/"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          class="card"
+        >
+          <div
+            class="card-inner"
+          >
+            <div
+              class="card-front"
+            >
+              <img
+                alt="Asco "
+                class="product-logo"
+                src="asco.png"
+              />
+            </div>
+            <div
+              class="card-back"
+            >
+              <p>
+                Fluid automation solutions.
+              </p>
+              <div>
+                <a
+                  class="ext-link"
+                  href="https://www.emerson.com/en-us/automation/asco"
+                  target="_blank"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </DocumentFragment>
 `;
