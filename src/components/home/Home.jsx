@@ -4,7 +4,7 @@ import Translate from '../translate/Translate';
 import Solutions from '../solutions/Solutions';
 import Services from '../servicesPage/Services';
 import Products from '../products/Products';
-// import AboutUs from '../aboutUs/AboutUs';
+import AboutUs from '../aboutUs/AboutUs';
 // import Contact from '../contact/Contact';
 // import Footer from '../footer/Footer';
 import logo from '../../assets/logo.png';
@@ -44,9 +44,9 @@ export default function Home() {
 
       <Products />
 
-      {/* <br />
+      <br />
 
-      <AboutUs /> */}
+      <AboutUs />
 
       {/* <br />
 
