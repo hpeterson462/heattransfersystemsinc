@@ -6,7 +6,7 @@ import Services from '../servicesPage/Services';
 import Products from '../products/Products';
 import AboutUs from '../aboutUs/AboutUs';
 import Contact from '../contact/Contact';
-// import Footer from '../footer/Footer';
+import Footer from '../footer/Footer';
 import logo from '../../assets/logo.png';
 import './Home.css';
 
@@ -52,9 +52,9 @@ export default function Home() {
 
       <Contact />
 
-      {/* <br />
+      <br />
 
-      <Footer /> */}
+      <Footer />
 
     </>
   )

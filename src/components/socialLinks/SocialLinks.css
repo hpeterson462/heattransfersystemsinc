@@ -1,0 +1,35 @@
+.social {
+  display: flex;
+  position: absolute;
+  right: 85px;
+  color: #003366;
+  z-index: 10;
+}
+
+.social-link {
+  margin: 5px;
+  padding: 10px;
+  opacity: 0.5;
+  transition: 0.45s ease-in-out;
+  color: #003366;
+}
+
+.social-link:hover {
+  cursor: pointer;
+  color: #F68D0B;
+  opacity: 1;
+}
+
+.social-link:focus {
+  
+}
+
+@media only screen
+and (min-device-width : 20em) 
+and (max-device-width : 50em)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+  .social-link {
+    padding: 5px;
+  }
+}
