@@ -1254,5 +1254,72 @@ exports[`Home component renders Home component 1`] = `
       </div>
     </div>
   </section>
+  <br />
+  <section>
+    <h1
+      id="contact"
+    >
+      Contact
+    </h1>
+    <div
+      class="contact-container"
+    >
+      <div
+        class="contact-info"
+      >
+        <p
+          class="contact-info-title"
+        >
+          Mailing Address
+        </p>
+        <p>
+          332 Wright Brothers Ave.
+        </p>
+        <p>
+          Livermore, CA 94551
+        </p>
+      </div>
+      <div
+        class="contact-info"
+      >
+        <img
+          alt="Heat Transfer Systems"
+          class="contact-logo"
+          src="logo.png"
+        />
+        <p
+          class="contact-info-title"
+        >
+          Email Address
+        </p>
+        <a
+          class="contact-email"
+          href="mailto:info@heattransfersystems.com"
+        >
+          info@heattransfersystems.com
+        </a>
+      </div>
+      <div
+        class="contact-info"
+      >
+        <p
+          class="contact-info-title"
+        >
+          Phone
+        </p>
+        <p>
+          925-456-0600
+        </p>
+        <p
+          class="contact-info-title"
+        >
+          Fax
+        </p>
+        <p>
+          925-456-0602
+        </p>
+      </div>
+    </div>
+  </section>
 </DocumentFragment>
 `;
