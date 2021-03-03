@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from '../../assets/logo.png';
+import "aos/dist/aos.css";
+import AOS from "aos";
 import './Contact.css';
 
 export default function Contact() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <section>
       <h1 id="contact">Contact</h1>
 
-      <div className="contact-container">
+      <div className="contact-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
 
         <div className="contact-info">
           <p className="contact-info-title">

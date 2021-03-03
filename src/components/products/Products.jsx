@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { HiOutlineExternalLink } from "react-icons/hi";
 import honeywell from '../../assets/honeywell.png';
 import maxonHoneywell from '../../assets/maxonHoneywell.png';
@@ -15,9 +15,16 @@ import pyromation from '../../assets/pyromation.png';
 import exothermicsHoneywell from '../../assets/exothermicsHoneywell.png';
 import protectionControlsInc from '../../assets/protectionControlsInc.png';
 import asco from '../../assets/asco.png';
+import "aos/dist/aos.css";
+import AOS from "aos";
 import './Products.css';
 
 export default function Products() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   const productLogos = [
     {
@@ -150,7 +157,7 @@ export default function Products() {
         We offer a variety of quality products from these companies.
       </h2>
 
-      <div className="card-container">
+      <div className="card-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
 
         {displayProductLogos}
 
