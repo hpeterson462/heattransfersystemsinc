@@ -67,7 +67,7 @@ export default function Products() {
       name: 'Siemens',
       image: siemens,
       url: 'https://scccombustion.com/',
-      description: 'SSC Inc.'
+      description: 'Siemens Combustion Controls Inc.'
     },
     {
       name: 'Fireye',
