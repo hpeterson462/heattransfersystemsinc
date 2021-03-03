@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useScrollAnimation } from '../../hooks/scrollAnimation';
 import serviceCycle from '../../assets/serviceCycle.png';
 import startUp from '../../assets/startUp.jpg';
 import installation from '../../assets/installation.jpg';
 import jobSite from '../../assets/jobSite.jpg';
 import prevMaintenance from '../../assets/prevMaintenance.jpg';
+import "aos/dist/aos.css";
+import AOS from "aos";
 import './Services.css';
 
 export default function Services() {
 
-  const { isVisible, animationRef } = useScrollAnimation();
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <>
@@ -29,8 +34,8 @@ export default function Services() {
         </h2>
       </section>
 
-      <div className={`serv-card-container ${isVisible ? 'is-visible' : ''}`} ref={animationRef}>
-        <div className="card-wrapper">
+      <div className="serv-card-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
+        <div className="card-wrapper" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
           <div className="serv-card">
             <div className="serv-name">
               Start Up

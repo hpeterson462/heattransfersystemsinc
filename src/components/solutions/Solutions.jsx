@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useScrollAnimation } from '../../hooks/scrollAnimation';
 import burnerEquipment from '../../assets/burnerEquipment.jpg';
 import controlPanel from '../../assets/controlPanel.jpg';
 import turnKeySystems from '../../assets/turnKeySystems.jpg';
 import gasTrain from '../../assets/gasTrain.jpg';
+import "aos/dist/aos.css";
+import AOS from "aos";
 import './Solutions.css';
 
 export default function Solutions() {
 
-  const { isVisible, animationRef } = useScrollAnimation();
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <>
@@ -22,8 +27,8 @@ export default function Solutions() {
         </h2>
       </section>
 
-      <div className={`sol-card-container ${isVisible ? 'is-visible' : ''}`} ref={animationRef}>
-        <div className="sol-wrapper">
+      <div className="sol-card-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
+        <div className="sol-wrapper" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
           <div>
             <div className="sol-name">Burner Equipment</div>
             <div className="sol-card">

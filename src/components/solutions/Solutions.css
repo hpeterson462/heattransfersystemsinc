@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   transform: translateY(20vh);
-  visibility: hidden;
   transition: opacity 0.6s ease-out, transform 1.2s ease-out;
   background-color:#003366;
 }
