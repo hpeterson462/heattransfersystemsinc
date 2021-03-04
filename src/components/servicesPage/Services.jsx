@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
-import { useScrollAnimation } from '../../hooks/scrollAnimation';
 import serviceCycle from '../../assets/serviceCycle.png';
 import startUp from '../../assets/startUp.jpg';
 import installation from '../../assets/installation.jpg';
-import jobSite from '../../assets/jobSite.jpg';
+// import jobSite from '../../assets/jobSite.jpg';
 import prevMaintenance from '../../assets/prevMaintenance.jpg';
 import "aos/dist/aos.css";
 import AOS from "aos";
