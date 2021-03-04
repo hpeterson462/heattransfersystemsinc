@@ -33,7 +33,6 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 15px;
-  max-width: 80%;
 }
 
 .serv-card {
@@ -47,6 +46,13 @@
 }
 
 .serv-name {
+  margin-bottom: 42px;
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+  color: #F9FAFB;
+}
+
+.serv-name-2 {
   margin-bottom: 10px;
   font-size: 1.1rem;
   letter-spacing: 0.2rem;

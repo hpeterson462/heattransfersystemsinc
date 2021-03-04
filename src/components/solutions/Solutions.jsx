@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { useScrollAnimation } from '../../hooks/scrollAnimation';
 import burnerEquipment from '../../assets/burnerEquipment.jpg';
 import controlPanel from '../../assets/controlPanel.jpg';
 import turnKeySystems from '../../assets/turnKeySystems.jpg';

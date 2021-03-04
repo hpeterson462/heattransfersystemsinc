@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
-import { useScrollAnimation } from '../../hooks/scrollAnimation';
 import serviceCycle from '../../assets/serviceCycle.png';
 import startUp from '../../assets/startUp.jpg';
 import installation from '../../assets/installation.jpg';
-import jobSite from '../../assets/jobSite.jpg';
+// import jobSite from '../../assets/jobSite.jpg';
 import prevMaintenance from '../../assets/prevMaintenance.jpg';
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -64,8 +63,8 @@ export default function Services() {
           </div>
 
           <div className="serv-card">
-            <div className="serv-name">
-              Preventative Maintenance
+            <div className="serv-name-2">
+              Preventative Maintenance <br /> & Service
             </div>
             <img
               className="serv-img"
@@ -74,10 +73,10 @@ export default function Services() {
             />
             <p className="serv-p">
               Ongoing, preventative maintenance can <b>reduce unplanned down time</b>, <b>minimize fuel costs</b>, <b>increase product quality</b>, and ensure your combustion <b>equipment is running safely</b>. However, if the unexpected does happen, our local team of service experts are ready to get you back into production quickly.
-          </p>
+            </p>
           </div>
 
-          <div className="serv-card">
+          {/* <div className="serv-card">
             <div className="serv-name">
               Service
             </div>
@@ -94,7 +93,7 @@ export default function Services() {
             <br /> <b>troubleshooting & repairs</b>, and
             <br />proactive & preventative <b>maintenance</b>.
           </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

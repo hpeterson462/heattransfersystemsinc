@@ -1,14 +1,18 @@
-import React from 'react';
-import { useScrollAnimation } from '../../hooks/scrollAnimation';
+import React, { useEffect } from 'react';
 import steve from '../../assets/steve.jpg';
 import daniel from '../../assets/daniel.jpg';
 import bailey from '../../assets/bailey.jpg';
 import paul from '../../assets/paul.jpg';
+import "aos/dist/aos.css";
+import AOS from "aos";
 import './AboutUs.css';
 
 export default function AboutUs() {
 
-  const { isVisible, animationRef } = useScrollAnimation();
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <section>
@@ -19,7 +23,7 @@ export default function AboutUs() {
         Our team has been involved in the sales, service, and engineering  of combustion systems and equipment for over 50 years that includes three generations. We have an extensive background in designing systems for many different industries.
       </h2>
 
-      <div className={`profile-container ${isVisible ? 'is-visible' : ''}`} ref={animationRef}>
+      <div className="profile-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
 
         <div className="profile-card">
           <img
