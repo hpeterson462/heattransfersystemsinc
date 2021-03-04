@@ -28,8 +28,8 @@
   height: 300px;
   border-radius: 2px;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
-  background-color: #F9FAFB;
-  border: #003366 2px solid;
+  background-color: #5c7c9c;
+  border: #003366 20px solid;
 }
 
 .sol-name {
@@ -46,7 +46,6 @@
 .sol-img {
   width: 300px;
   height: 300px;
-  border-radius: 2px;
   transition: opacity .5s ease-in-out;
 }
 

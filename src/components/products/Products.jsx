@@ -153,8 +153,8 @@ export default function Products() {
         Products
       </h1>
 
-      <h2>
-        We offer a variety of quality products from these companies.
+      <h2 className="products-blurb">
+        Companies we proudly partner with.
       </h2>
 
       <div className="card-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">

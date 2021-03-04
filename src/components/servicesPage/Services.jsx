@@ -64,8 +64,8 @@ export default function Services() {
           </div>
 
           <div className="serv-card">
-            <div className="serv-name">
-              Preventative Maintenance
+            <div className="serv-name-2">
+              Preventative Maintenance <br /> & Service
             </div>
             <img
               className="serv-img"
@@ -75,9 +75,17 @@ export default function Services() {
             <p className="serv-p">
               Ongoing, preventative maintenance can <b>reduce unplanned down time</b>, <b>minimize fuel costs</b>, <b>increase product quality</b>, and ensure your combustion <b>equipment is running safely</b>. However, if the unexpected does happen, our local team of service experts are ready to get you back into production quickly.
           </p>
+            {/* <p className="serv-p">
+              We offer a wide range of services:
+            <br />
+              <b>burner tuning</b>,
+            <br /> regulatory <b>safety audits</b>,
+            <br /> <b>troubleshooting & repairs</b>, and
+            <br />proactive & preventative <b>maintenance</b>.
+          </p> */}
           </div>
 
-          <div className="serv-card">
+          {/* <div className="serv-card">
             <div className="serv-name">
               Service
             </div>
@@ -94,7 +102,7 @@ export default function Services() {
             <br /> <b>troubleshooting & repairs</b>, and
             <br />proactive & preventative <b>maintenance</b>.
           </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

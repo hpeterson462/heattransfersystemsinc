@@ -1,3 +1,7 @@
+.products-blurb {
+  font-size: 1.5rem;
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
