@@ -3,11 +3,13 @@ import burnerEquipment from '../../assets/burnerEquipment.jpg';
 import controlPanel from '../../assets/controlPanel.jpg';
 import turnKeySystems from '../../assets/turnKeySystems.jpg';
 import gasTrain from '../../assets/gasTrain.jpg';
-import "aos/dist/aos.css";
-import AOS from "aos";
+import blurLogo from '../../assets/blurLogo.jpg';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import LazyLoad from "react-lazyload";
 import './Solutions.css';
 
-export default function Solutions() {
+function Solutions() {
 
   useEffect(() => {
     AOS.init();
@@ -31,11 +33,13 @@ export default function Solutions() {
           <div>
             <div className="sol-name">Burner Equipment</div>
             <div className="sol-card">
-              <img
-                className="sol-img"
-                src={burnerEquipment}
-                alt="industrial heating system"
-              />
+              <LazyLoad height={250} once>
+                <img
+                  className="sol-img"
+                  src={burnerEquipment}
+                  alt="industrial heating system"
+                />
+              </LazyLoad>
               <div className="sol-description">
                 <p className="sol-p">
                   <b>Gas & oil burners</b>, <b>recuperators</b>, and <b>heat exchangers</b> for standard to low emissions applications in a variety of industries.
@@ -47,11 +51,13 @@ export default function Solutions() {
           <div>
             <div className="sol-name">Gas Trains</div>
             <div className="sol-card">
-              <img
-                className="sol-img"
-                src={gasTrain}
-                alt="gas train"
-              />
+              <LazyLoad height={250} once>
+                <img
+                  className="sol-img"
+                  src={gasTrain}
+                  alt="gas train"
+                />
+              </LazyLoad>
               <div className="sol-description">
                 <p className="sol-p">
                   <b>Custom gas trains</b> built to meet <b>NFPA</b> requirements for <b>natural & propane</b> gas tailored to the unique needs of our customers.
@@ -63,11 +69,13 @@ export default function Solutions() {
           <div>
             <div className="sol-name">Control Panels</div>
             <div className="sol-card">
-              <img
-                className="sol-img"
-                src={controlPanel}
-                alt="industrial heating system panel"
-              />
+              <LazyLoad height={250} once>
+                <img
+                  className="sol-img"
+                  src={controlPanel}
+                  alt="industrial heating system panel"
+                />
+              </LazyLoad>
               <div className="sol-description">
                 <p className="sol-p">
                   From <b>single-burner</b> to <b>complex PLC</b> based controls, we provide custom control panels for each system.
@@ -79,11 +87,13 @@ export default function Solutions() {
           <div>
             <div className="sol-name">Turn-Key Systems</div>
             <div className="sol-card">
-              <img
-                className="sol-img"
-                src={turnKeySystems}
-                alt="heat exchanger"
-              />
+              <LazyLoad height={250} once>
+                <img
+                  className="sol-img"
+                  src={turnKeySystems}
+                  alt="heat exchanger"
+                />
+              </LazyLoad>
               <div className="sol-description">
                 <p className="sol-p">
                   From tear down of old equipment to the <b>design & installation</b> of new systems, we provide a <b>complete package</b> in start-up training.
@@ -94,5 +104,7 @@ export default function Solutions() {
         </div>
       </div>
     </>
-  )
+  );
 }
+
+export default Solutions;
