@@ -43,21 +43,6 @@ export default function AboutUs() {
         <div className="profile-card">
           <img
             className="profile-img"
-            src={paul}
-            alt="Heat Transfer Systems employee Paul"
-          />
-          <div>
-            <p>Paul Deliramich</p>
-            <p>Inside Sales & Support Manager</p>
-            <a href="mailto:paul@heattransfersystems.com" className="contact-email">
-              paul@heattransfersystems.com
-            </a>
-          </div>
-        </div>
-
-        <div className="profile-card">
-          <img
-            className="profile-img"
             src={daniel}
             alt="Heat Transfer Systems employee Daniel"
           />
