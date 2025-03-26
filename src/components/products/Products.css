@@ -9,7 +9,7 @@
   margin: auto;
   padding: 20px;
   border-radius: 2px;
-  background-color:#003366;
+  background-color: #003366;
 }
 
 .card {
@@ -45,24 +45,26 @@
   border-radius: 2px;
 }
 
-.card-front, 
-  .card-back {
-      display: flex;
-      position: absolute;
-      justify-content: center;
-      align-items: center;
-      border-radius: 2px;
-      width: 100%;
-      height: 100%;
-      -webkit-backface-visibility: hidden; /* Safari */
-      backface-visibility: hidden;
-  }
+.card-front,
+.card-back {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
 
 .card-back {
   display: grid;
   font-family: 'Noto Sans', sans-serif;
   transform: rotateY(180deg);
-  background-color:#F9FAFB;
+  background-color: #F9FAFB;
 }
 
 .ext-link {

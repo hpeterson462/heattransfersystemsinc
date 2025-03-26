@@ -1,8 +1,6 @@
 .contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 5%;
 }
 
@@ -16,8 +14,9 @@
 }
 
 .contact-info {
+  margin: 0 auto;
   text-align: center;
-  width: 300px;
+  max-width: 300px;
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
@@ -28,12 +27,18 @@
   color: #CC0000;
 }
 
-@media only screen
-and (min-device-width : 20em) 
-and (max-device-width : 50em)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
+.contact-email {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-device-width : 20em) and (max-device-width : 50em) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .contact-logo {
     padding: 10px 0 10px 0;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 5%;
   }
 }

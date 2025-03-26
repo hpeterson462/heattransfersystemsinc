@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   transform: translateY(20vh);
-  background-color:#F9FAFB;
+  background-color: #F9FAFB;
 }
 
 .sol-card-container.is-visible {
@@ -75,6 +75,13 @@
   padding: 10px;
   border-radius: 2px;
   font-family: 'Roboto', sans-serif;
-  line-height: 1.3rem;  
-  background-color:#F9FAFB;
+  line-height: 1.3rem;
+  background-color: #F9FAFB;
+}
+
+@media only screen and (min-device-width : 20em) and (max-device-width : 50em) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .sol-wrapper {
+    display: flex;
+    justify-content: center;
+  }
 }

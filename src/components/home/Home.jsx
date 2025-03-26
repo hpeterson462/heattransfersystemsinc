@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Nav />
 
-      <div className="logo-title" id="home">
+      <section className="logo-title" id="home">
         <img
           className="home-logo"
           src={logo}
@@ -26,9 +26,36 @@ export default function Home() {
           Heat Transfer Systems
         </h1>
         <h2 className="home-p">
-          Burners, Combustion Systems, Components & Service
+          Burners, Fans & Blowers, Combustion Systems, Components & Service
         </h2>
-      </div>
+      </section>
+
+      <section className='home-contact-info'>
+        <div className="contact-info">
+          <p className="contact-info-title">
+            Mailing Address
+          </p>
+          <p>239 Boeing Court</p>
+          <p>Livermore, CA 94551</p>
+        </div>
+
+        <div className="contact-info">
+          <p className="contact-info-title">
+            Email Address
+          </p>
+          <a href="mailto:diane@heattransfersystems.com" className="contact-email">
+            info@heattransfersystems.com
+          </a>
+        </div>
+
+        <div className="contact-info">
+          <p className="contact-info-title">
+            Phone
+          </p>
+          <p>925-456-0600</p>
+        </div>
+
+      </section>
 
       <Translate />
 

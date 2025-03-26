@@ -10,7 +10,7 @@ export default function SocialLinks() {
       {/* <a href="" target="_blank" className="social-link">
         <FaLinkedin size={25} />
       </a> */}
-      <a href="mailto:info@heattransfersystems.com" className="social-link">
+      <a href="mailto:diane@heattransfersystems.com" className="social-link">
         <HiOutlineMail size={25} />
       </a>
     </span>

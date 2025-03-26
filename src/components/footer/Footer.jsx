@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <div className="footer">
-      &copy; 2021 Heat Transfer Systems Inc.
+      &copy; 2025 Heat Transfer Systems Inc.
 
       <SocialLinks />
     </div>
