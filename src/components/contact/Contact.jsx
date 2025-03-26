@@ -21,7 +21,7 @@ export default function Contact() {
           <p className="contact-info-title">
             Mailing Address
           </p>
-          <p>332 Wright Brothers Ave.</p>
+          <p>239 Boeing Court</p>
           <p>Livermore, CA 94551</p>
         </div>
 
@@ -34,7 +34,7 @@ export default function Contact() {
           <p className="contact-info-title">
             Email Address
           </p>
-          <a href="mailto:info@heattransfersystems.com" className="contact-email">
+          <a href="mailto:diane@heattransfersystems.com" className="contact-email">
             info@heattransfersystems.com
           </a>
         </div>
@@ -44,10 +44,6 @@ export default function Contact() {
             Phone
           </p>
           <p>925-456-0600</p>
-          <p className="contact-info-title">
-            Fax
-          </p>
-          <p>925-456-0602</p>
         </div>
 
       </div>

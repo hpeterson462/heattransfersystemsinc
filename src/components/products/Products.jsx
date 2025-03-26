@@ -15,6 +15,8 @@ import pyromation from '../../assets/pyromation.png';
 import exothermicsHoneywell from '../../assets/exothermicsHoneywell.png';
 import protectionControlsInc from '../../assets/protectionControlsInc.png';
 import asco from '../../assets/asco.png';
+import accessCombustion from '../../assets/accessCombustion.jpg';
+import tfc from '../../assets/tfc.png';
 import "aos/dist/aos.css";
 import AOS from "aos";
 import './Products.css';
@@ -117,34 +119,47 @@ export default function Products() {
       url: 'https://www.emerson.com/en-us/automation/asco',
       description: 'Fluid automation solutions.'
     },
+    {
+      name: 'Access Combustion',
+      image: accessCombustion,
+      url: 'https://www.combustion-tech.net/article_85_Access-Combustion.cfm',
+      description: 'Combustion and burner technology.'
+    },
+    // {
+    //   name: 'TCF',
+    //   image: tfc,
+    //   url: 'https://www.tcf.com/',
+    //   description: 'Commercial and industrial fans.'
+    // },
   ]
 
   const displayProductLogos = productLogos.map(
     (productLogos, index) =>
-      <div className="card" key={productLogos.name + index}>
-        <div className="card-inner">
-          <div className="card-front">
-            <img
-              className="product-logo"
-              src={productLogos.image}
-              alt={`${productLogos.name} `}
-            />
-          </div>
-          <div className="card-back">
-            <p>{productLogos.description}</p>
-            <div>
-              <a
-                className="ext-link"
-                target="_blank"
-                href={productLogos.url}
-              >
-                <HiOutlineExternalLink />
-              </a>
+      <>
+        <div className="card" key={productLogos.name + index}>
+          <div className="card-inner">
+            <div className="card-front">
+              <img
+                className="product-logo"
+                src={productLogos.image}
+                alt={`${productLogos.name}`}
+              />
             </div>
-            <div />
+            <div className="card-back">
+              <p>{productLogos.description}</p>
+              <div>
+                <a
+                  className="ext-link"
+                  target="_blank"
+                  href={productLogos.url}
+                >
+                  <HiOutlineExternalLink />
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div >
+        </div >
+      </>
   )
 
   return (
@@ -161,7 +176,33 @@ export default function Products() {
 
         {displayProductLogos}
 
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <img
+                className="product-logo"
+                src={tfc}
+                alt='Twin City Fans'
+                style={{ width: '150px', height: '50px' }}
+              />
+            </div>
+            <div className="card-back">
+              <p>Commercial and industrial fans.</p>
+              <div>
+                <a
+                  className="ext-link"
+                  target="_blank"
+                  href='https://www.tcf.com/'
+                >
+                  <HiOutlineExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div >
+
       </div>
+
     </section>
   )
 }

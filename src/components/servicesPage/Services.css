@@ -73,12 +73,12 @@
   color: #F9FAFB;
 }
 
-@media only screen
-  and (min-device-width : 20em) 
-  and (max-device-width : 50em)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-    .circleArrow {
-      width: 80%;
-    }
+@media only screen and (min-device-width : 20em) and (max-device-width : 50em) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .circleArrow {
+    width: 80%;
+  }
+
+  .serv-card {
+    margin: auto;
+  }
 }

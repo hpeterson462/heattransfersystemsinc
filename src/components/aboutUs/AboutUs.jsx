@@ -26,14 +26,14 @@ export default function AboutUs() {
       <div className="profile-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
 
         <div className="profile-card">
-          <img
+          {/* <img
             className="profile-img"
             src={steve}
             alt="Heat Transfer Systems employee Steve"
-          />
-          <div>
+          /> */}
+          <div className='profile-card-inside'>
             <p>Steve Wirth</p>
-            <p>President</p>
+            <p>President, Sales, Service</p>
             <a href="mailto:steve@heattransfersystems.com" className="contact-email">
               steve@heattransfersystems.com
             </a>
@@ -41,14 +41,14 @@ export default function AboutUs() {
         </div>
 
         <div className="profile-card">
-          <img
+          {/* <img
             className="profile-img"
             src={daniel}
             alt="Heat Transfer Systems employee Daniel"
-          />
-          <div>
+          /> */}
+          <div className='profile-card-inside'>
             <p>Daniel Candaux</p>
-            <p>Project & Services Manager</p>
+            <p>Project Manager, Sales, Service</p>
             <a href="mailto:daniel@heattransfersystems.com" className="contact-email">
               daniel@heattransfersystems.com
             </a>
@@ -56,16 +56,56 @@ export default function AboutUs() {
         </div>
 
         <div className="profile-card">
-          <img
+          {/* <img
             className="profile-img"
             src={bailey}
             alt="Heat Transfer Systems employee Bailey"
-          />
-          <div>
+          /> */}
+          <div className='profile-card-inside'>
             <p>Bailey Wirth</p>
-            <p>Production & Warehouse Manager</p>
+            <p>General Manager, Sales, Service</p>
             <a href="mailto:bailey@heattransfersystems.com" className="contact-email">
               bailey@heattransfersystems.com
+            </a>
+          </div>
+        </div>
+
+        <div className="profile-card">
+          <div className='profile-card-inside'>
+            <p>Lauren Wirth</p>
+            <p>AR/AP, Corp Administrator</p>
+            <a href="mailto:lauren@heattransfersystems.com" className="contact-email">
+              lauren@heattransfersystems.com
+            </a>
+          </div>
+        </div>
+
+        <div className="profile-card">
+          <div className='profile-card-inside'>
+            <p>Diane Smith</p>
+            <p>Office Manager, Inside Sales</p>
+            <a href="mailto:diane@heattransfersystems.com" className="contact-email">
+              diane@heattransfersystems.com
+            </a>
+          </div>
+        </div>
+
+        <div className="profile-card">
+          <div className='profile-card-inside'>
+            <p>David Maurillo</p>
+            <p>Electrical Project Manager, Service</p>
+            <a href="mailto:david@heattransfersystems.com" className="contact-email">
+              david@heattransfersystems.com
+            </a>
+          </div>
+        </div>
+
+        <div className="profile-card">
+          <div className='profile-card-inside'>
+            <p>Kevin Mattos</p>
+            <p>Service Manager, Service, Sales</p>
+            <a href="mailto:kevin@heattransfersystems.com" className="contact-email">
+              kevin@heattransfersystems.com
             </a>
           </div>
         </div>

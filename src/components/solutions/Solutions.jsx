@@ -4,6 +4,7 @@ import controlPanel from '../../assets/controlPanel.jpg';
 import turnKeySystems from '../../assets/turnKeySystems.jpg';
 import gasTrain from '../../assets/gasTrain.jpg';
 import blurLogo from '../../assets/blurLogo.jpg';
+import clusterFans from '../../assets/clusterFans.png';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import LazyLoad from "react-lazyload";
@@ -43,7 +44,7 @@ function Solutions() {
               <div className="sol-description">
                 <p className="sol-p">
                   <b>Gas & oil burners</b>, <b>recuperators</b>, and <b>heat exchangers</b> for standard to low emissions applications in a variety of industries.
-              </p>
+                </p>
               </div>
             </div>
           </div>
@@ -61,7 +62,7 @@ function Solutions() {
               <div className="sol-description">
                 <p className="sol-p">
                   <b>Custom gas trains</b> built to meet <b>NFPA</b> requirements for <b>natural & propane</b> gas tailored to the unique needs of our customers.
-              </p>
+                </p>
               </div>
             </div>
           </div>
@@ -79,7 +80,7 @@ function Solutions() {
               <div className="sol-description">
                 <p className="sol-p">
                   From <b>single-burner</b> to <b>complex PLC</b> based controls, we provide custom control panels for each system.
-              </p>
+                </p>
               </div>
             </div>
           </div>
@@ -97,12 +98,32 @@ function Solutions() {
               <div className="sol-description">
                 <p className="sol-p">
                   From tear down of old equipment to the <b>design & installation</b> of new systems, we provide a <b>complete package</b> in start-up training.
-              </p>
+                </p>
               </div>
             </div>
           </div>
+
+          <div>
+            <div className="sol-name">Cluster Fans</div>
+            <div className="sol-card">
+              <LazyLoad height={250} once>
+                <img
+                  className="sol-img"
+                  src={clusterFans}
+                  alt="cluster fans"
+                />
+              </LazyLoad>
+              <div className="sol-description">
+                <p className="sol-p">
+                  Commercial and industrial <b>fan and blower solutions</b> and replacement parts for <b>most fan manufacturers</b>.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+
     </>
   );
 }

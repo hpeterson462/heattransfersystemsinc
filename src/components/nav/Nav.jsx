@@ -38,10 +38,13 @@ export default function Nav() {
         Home
       </Link>
 
+      <Link className="link" to="/news">
+        News
+      </Link>
+
       <Link className="link" to="#solutions">
         Solutions
       </Link>
-
 
       <Link className="link" to="#services">
         Services
