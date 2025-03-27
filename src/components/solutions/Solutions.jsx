@@ -104,13 +104,13 @@ function Solutions() {
           </div>
 
           <div>
-            <div className="sol-name">Cluster Fans</div>
+            <div className="sol-name">Fans & Blowers</div>
             <div className="sol-card">
               <LazyLoad height={250} once>
                 <img
                   className="sol-img"
                   src={clusterFans}
-                  alt="cluster fans"
+                  alt="fans and blowers"
                 />
               </LazyLoad>
               <div className="sol-description">
