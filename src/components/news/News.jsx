@@ -46,10 +46,26 @@ export default function News() {
         </Link>
       </nav>
 
-      <section className='news-main'>
-        <h1>
+      {/* <section className='news-main'> */}
+      {/* <h1 className='news-company-title'>
           Heat Transfer Systems
-          <br />
+        </h1>
+        <br />
+        <h1>
+          News
+        </h1> */}
+
+      <section className="logo-title" id="home">
+        <img
+          className="home-logo"
+          src={logo}
+          alt="Heat Transfer Systems logo"
+        />
+        <h1 className="home-company-title" data-testid="title">
+          Heat Transfer Systems
+        </h1>
+        <br />
+        <h1>
           News
         </h1>
       </section >
@@ -57,13 +73,13 @@ export default function News() {
       <div className='news-container'>
         <h2>December 2024</h2>
         <p>We are very excited to announce that we are now the exclusive representative for Twin City Fan & Blowers for Northern California & Nevada!</p>
-        <br></br>
+        <br />
         <h2>August 2024</h2>
         <p>We are pleased to announce that the ownership of Heat Transfer Systems purchased McNulty Mechanical in August of 2024.</p>
-        <br></br>
+        <br />
         <h2>July 2024</h2>
         <p>Heat Transfer Systems has moved to a new, much larger facility on July 1st!</p>
-        <br></br>
+        <br />
       </div>
     </ >
   )
