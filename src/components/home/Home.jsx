@@ -26,7 +26,7 @@ export default function Home() {
           Heat Transfer Systems
         </h1>
         <h2 className="home-p">
-          Burners, Fans & Blowers, Combustion Systems, Components & Service
+          Burners, Fans & Blowers, Combustion Systems, Components, Service & Installation
         </h2>
       </section>
 

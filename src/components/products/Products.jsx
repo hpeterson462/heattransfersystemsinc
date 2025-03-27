@@ -30,6 +30,36 @@ export default function Products() {
 
   const productLogos = [
     {
+      name: 'Karl Dungs Inc.',
+      image: dungs,
+      url: 'https://www.dungs.com/en',
+      description: 'Safe & clean gas combustion.'
+    },
+    {
+      name: 'Siemens',
+      image: siemens,
+      url: 'https://scccombustion.com/',
+      description: 'Siemens Combustion Controls Inc.'
+    },
+    {
+      name: 'Access Combustion',
+      image: accessCombustion,
+      url: 'https://www.combustion-tech.net/article_85_Access-Combustion.cfm',
+      description: 'Combustion and burner technology.'
+    },
+    {
+      name: 'Fireye',
+      image: fireye,
+      url: 'https://www.fireye.com/',
+      description: 'Flame safeguard controls & burner systems.'
+    },
+    {
+      name: 'Pietro Fiorentini',
+      image: pietroFiorentini,
+      url: 'https://www.fiorentini.com/us/en',
+      description: 'Solutions for oil & gas streams.'
+    },
+    {
       name: 'Honeywell',
       image: honeywell,
       url: 'https://thermalsolutions.honeywell.com/us/en/home',
@@ -60,28 +90,10 @@ export default function Products() {
       description: 'Asphalt & aggregate drying.'
     },
     {
-      name: 'Karl Dungs Inc.',
-      image: dungs,
-      url: 'https://www.dungs.com/en',
-      description: 'Safe & clean gas combustion.'
-    },
-    {
-      name: 'Siemens',
-      image: siemens,
-      url: 'https://scccombustion.com/',
-      description: 'Siemens Combustion Controls Inc.'
-    },
-    {
-      name: 'Fireye',
-      image: fireye,
-      url: 'https://www.fireye.com/',
-      description: 'Flame safeguard controls & burner systems.'
-    },
-    {
-      name: 'Pietro Fiorentini',
-      image: pietroFiorentini,
-      url: 'https://www.fiorentini.com/us/en',
-      description: 'Solutions for oil & gas streams.'
+      name: 'Honeywell Exothermics',
+      image: exothermicsHoneywell,
+      url: 'https://thermalsolutions.honeywell.com/us/en/home',
+      description: 'Trusted technology to manage your burners.'
     },
     {
       name: 'Flynn',
@@ -102,12 +114,6 @@ export default function Products() {
       description: 'Temperature sensors & assemblies.'
     },
     {
-      name: 'Honeywell Exothermics',
-      image: exothermicsHoneywell,
-      url: 'https://thermalsolutions.honeywell.com/us/en/home',
-      description: 'Trusted technology to manage your burners.'
-    },
-    {
       name: 'Protection Controls Inc.',
       image: protectionControlsInc,
       url: 'https://www.protectioncontrolsinc.com/',
@@ -118,12 +124,6 @@ export default function Products() {
       image: asco,
       url: 'https://www.emerson.com/en-us/automation/asco',
       description: 'Fluid automation solutions.'
-    },
-    {
-      name: 'Access Combustion',
-      image: accessCombustion,
-      url: 'https://www.combustion-tech.net/article_85_Access-Combustion.cfm',
-      description: 'Combustion and burner technology.'
     },
     // {
     //   name: 'TCF',
@@ -174,8 +174,6 @@ export default function Products() {
 
       <div className="card-container" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="900">
 
-        {displayProductLogos}
-
         <div className="card">
           <div className="card-inner">
             <div className="card-front">
@@ -200,6 +198,8 @@ export default function Products() {
             </div>
           </div>
         </div >
+
+        {displayProductLogos}
 
       </div>
 

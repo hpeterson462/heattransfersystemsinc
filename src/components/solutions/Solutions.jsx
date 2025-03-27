@@ -50,6 +50,24 @@ function Solutions() {
           </div>
 
           <div>
+            <div className="sol-name">Fans & Blowers</div>
+            <div className="sol-card">
+              <LazyLoad height={250} once>
+                <img
+                  className="sol-img"
+                  src={clusterFans}
+                  alt="fans and blowers"
+                />
+              </LazyLoad>
+              <div className="sol-description">
+                <p className="sol-p">
+                  Commercial and industrial <b>fan and blower solutions</b> and replacement parts for <b>most fan manufacturers</b>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
             <div className="sol-name">Gas Trains</div>
             <div className="sol-card">
               <LazyLoad height={250} once>
@@ -98,24 +116,6 @@ function Solutions() {
               <div className="sol-description">
                 <p className="sol-p">
                   From tear down of old equipment to the <b>design & installation</b> of new systems, we provide a <b>complete package</b> in start-up training.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="sol-name">Fans & Blowers</div>
-            <div className="sol-card">
-              <LazyLoad height={250} once>
-                <img
-                  className="sol-img"
-                  src={clusterFans}
-                  alt="fans and blowers"
-                />
-              </LazyLoad>
-              <div className="sol-description">
-                <p className="sol-p">
-                  Commercial and industrial <b>fan and blower solutions</b> and replacement parts for <b>most fan manufacturers</b>.
                 </p>
               </div>
             </div>
