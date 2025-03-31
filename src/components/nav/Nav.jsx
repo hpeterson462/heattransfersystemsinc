@@ -5,26 +5,27 @@ import './Nav.css';
 
 export default function Nav() {
 
-  const [startScrollPosition, setStartScrollPosition] = useState(0);
-  const [visible, setVisible] = useState(true);
+  // const [startScrollPosition, setStartScrollPosition] = useState(0);
+  // const [visible, setVisible] = useState(true);
 
-  const handleScroll = () => {
-    const currentScrollPosition = window.pageYOffset;
+  // const handleScroll = () => {
+  //   const currentScrollPosition = window.pageYOffset;
 
-    setVisible((startScrollPosition > currentScrollPosition && startScrollPosition - currentScrollPosition) || currentScrollPosition < 10);
+  //   setVisible((startScrollPosition > currentScrollPosition && startScrollPosition - currentScrollPosition) || currentScrollPosition < 10);
 
-    setStartScrollPosition(currentScrollPosition);
-  };
+  //   setStartScrollPosition(currentScrollPosition);
+  // };
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
 
-  }, [startScrollPosition, visible, handleScroll]);
+  // }, [startScrollPosition, visible, handleScroll]);
 
   return (
-    <nav className="navbar" style={{ top: visible ? '0' : '-150px' }}>
+    // <nav className="navbar" style={{ top: visible ? '0' : '-150px' }}>
+    <nav className="navbar">
 
       <Link to="#home">
         <img
